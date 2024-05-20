@@ -1,0 +1,8 @@
+seg = int(input("Digite, em segundos, a duração do evento na fábrica: "))
+horas = int(seg / 3600)
+minutos = int((seg % 3600) / 60)
+segundos = int((seg % 3600) % 60)
+saida = str(horas) + ":" + str(minutos) + ":" + str(segundos)
+print(saida)
+# print(f'{int(seg / 3600)}:{int((seg % 3600) / 60)}:{int((seg % 3600) % 60)}')
+# print(int(seg / 3600), ":", int((seg % 3600) / 60), ":", int((seg % 3600) % 60), sep="")
